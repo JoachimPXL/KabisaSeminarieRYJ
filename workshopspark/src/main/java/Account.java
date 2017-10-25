@@ -1,3 +1,4 @@
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,5 +27,4 @@ public class Account {
     public void addMessage(Message message) {
         this.message.add(message);
     }
-
 }

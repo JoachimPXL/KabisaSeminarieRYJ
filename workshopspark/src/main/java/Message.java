@@ -5,7 +5,7 @@ import java.util.Date;
  */
 public class Message {
     private Date date;
-    private User sender;
+    private Account sender;
     private String message;
 
     public Date getDate() {
@@ -16,11 +16,11 @@ public class Message {
         this.date = date;
     }
 
-    public User getSender() {
+    public Account getSender() {
         return sender;
     }
 
-    public void setSender(User sender) {
+    public void setSender(Account sender) {
         this.sender = sender;
     }
 
